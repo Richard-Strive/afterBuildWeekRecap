@@ -1,0 +1,44 @@
+body {
+  max-width: 1000px;
+  margin-left: 185px;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+  background-color: rosybrown;
+  border: 1px solid green;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  background-color: red;
+}
+
+table {
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.font {
+  font-size: 20px;
+}
+
+.weight {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+.dotted {
+  border: 9px dotted red !important;
+}
