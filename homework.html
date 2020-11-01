@@ -90,8 +90,10 @@
 
       <script>
 
-let x = "Joe";
+/*let x = "Joe";
 let y = "Doe";
+
+console.log(x ,"<>", y)
 
 const person= {
   name: "Richard Johnson",
@@ -101,13 +103,64 @@ const person= {
  delete person.email
 
 
- /* const myArrey= ["1","2","3", "4", "5", "6", "7", "8", "9","10"]
+ const myArrey= ["1","2","3", "4", "5", "6", "7", "8", "9","10"]
 
 for(let i=0; i<myArrey.length; i++){
 
   console.log(myArrey[i])
 
-}*/
+}
+
+
+const randomMaxMin= ()=>{
+
+  randomNumb= Array.from({length: 100}, () => Math.floor(Math.random() * 100))
+  "This is Max " + " " + Math.max(...randomNumb)
+  "This is Min " + " " + Math.min(...randomNumb)
+
+} 
+
+const lilArray= Array.from({length: 10}, () => Math.floor(Math.random() * 10))
+const  arrayOfArray= [lilArray, lilArray, lilArray, lilArray, lilArray, lilArray, lilArray, lilArray, lilArray]
+
+
+
+
+
+const longest= ()=>{   
+
+ arrayOne=[2, 5, 5, 5, 5, 5, 5]
+ arrayTwo=[2, 3, 4, 4]
+
+ if(arrayOne.length > arrayTwo.length){
+
+ console.log("Array one")
+}
+else
+{
+
+  console.log("Array Two")
+
+}
+}
+
+const biggerSum= (array1, array2)=>{
+arrayOne=[2+ 5+ 5+ 5+ 5+ 5+ 5]
+arrayTwo=[2+3+4+4]
+
+if(arrayOne > arrayTwo){
+console.log("Array one")
+}
+else
+{
+ console.log("Array Two")
+}
+
+}
+
+*/
+
+
 
 
 
